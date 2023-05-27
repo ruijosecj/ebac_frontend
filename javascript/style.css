@@ -1,0 +1,39 @@
+body form{
+    display: flex;
+    flex-direction: column;
+}
+
+body form input{
+    width: 300px;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
+
+.mensagemSucesso{
+    background-color: green;
+    color: #fff;
+    padding: 16px;
+    font-size: 1.4rem;
+    width: 300px;
+    display: none;
+}
+.mensagemErro{
+    background-color: red;
+    color: #fff;
+    padding: 16px;
+    font-size: 1.4rem;
+    width: 300px;
+    display: none;
+}
+
+.inputError{
+    color: red;
+    border-color: '1px solid red'
+}
+
+.messageDisplay{
+    display: none;
+}
+
+
+
